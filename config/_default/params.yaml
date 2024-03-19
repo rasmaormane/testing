@@ -47,7 +47,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {2023} NPL'
+    notice: '© 2023 NPL'
 
 # Localization
 locale:

@@ -16,10 +16,11 @@ main:
     weight: 40
     hasChildren: true
   - parent: user guide
-    name: articles
-    url: articles/
-    name: examples
-    url: examples/
+      name: articles
+      url:  articles/
+  - parent: user guide
+      name: examples
+      url: examples/
   - name: news
     url: /#news
     weight: 50
