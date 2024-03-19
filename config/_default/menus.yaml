@@ -10,10 +10,13 @@ main:
     url: /#features
     weight: 20
     hasChildren: true
+  - parent: tools
     name: comet_maths
     url: comet_maths/
-  - name: obsarray
+  - parent: tools
+    name: obsarray
     url: obsarray/
+  - parent: tools
     name: punpy
     url: punpy/
   - name: about
