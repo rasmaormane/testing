@@ -1,5 +1,5 @@
 ---
-title: 'Home'
+title: 'home'
 date: 2023-10-24
 type: landing
 
@@ -37,29 +37,29 @@ sections:
           filename: background.jpg
           filters:
             brightness: 0.5
-  - block: stats
-    content:
-      items:
-        - statistic: "1M+"
-          description: |
-            Websites built  
-            with Hugo Blox
-        - statistic: "10k+"
-          description: |
-            GitHub stars  
-            since 2016
-        - statistic: "3k+"
-          description: |
-            Discord community  
-            for support
-    design:
-      # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
-      # Reduce spacing
-      spacing:
-        padding: ["1rem", 0, "1rem", 0]
-  - block: features
-    id: features
+  # - block: stats
+  #   content:
+  #     items:
+  #       - statistic: "1M+"
+  #         description: |
+  #           Websites built  
+  #           with Hugo Blox
+  #       - statistic: "10k+"
+  #         description: |
+  #           GitHub stars  
+  #           since 2016
+  #       - statistic: "3k+"
+  #         description: |
+  #           Discord community  
+  #           for support
+    # design:
+    #   # Section background color (CSS class)
+    #   css_class: "bg-gray-100 dark:bg-gray-900"
+    #   # Reduce spacing
+    #   spacing:
+    #     padding: ["1rem", 0, "1rem", 0]
+  - block: tools
+    id: tools
     content:
       title: tools
       text: a list of tools which abstract away the complexity of dealing with uncertainties
@@ -67,6 +67,9 @@ sections:
         - name: comet_maths
           icon: code-bracket
           description: useful mathematical algorithms, including interpolation with uncertainties
+          button:
+            text: comet_maths
+            url: https://www.comet-toolkit.org/tools/comet_maths/
         - name: punpy
           icon: star
           description: propagates uncertainties on input quantities through any python function, evaluating the uncertainty on the output
@@ -133,7 +136,7 @@ sections:
       text: As easy as 1, 2, 3!
       button:
         text: Get Started
-        url: https://hugoblox.com/templates/
+        url: https://www.comet-toolkit.org/
     design:
       card:
         # Card background color (CSS class)
