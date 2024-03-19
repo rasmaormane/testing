@@ -59,7 +59,7 @@ sections:
     #   spacing:
     #     padding: ["1rem", 0, "1rem", 0]
   - block: features
-    id: tools
+    id: features
     content:
       title: tools
       text: a list of tools which abstract away the complexity of dealing with uncertainties
