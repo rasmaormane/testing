@@ -47,7 +47,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© 2023 NPL'
+    notice: '© 2023 NPL. This work is licensed under GNU LGPL-3.0'
 
 # Localization
 locale:
