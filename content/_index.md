@@ -10,17 +10,17 @@ design:
 sections:
   - block: hero
     content:
-      title: Build Your Landing Pages with Hugo Blox
-      text: 🧱 EASY. FREE (OPEN SOURCE). NO-CODE  🧱
+      title: CoMet
+      text: Community Metrology Toolkit
       primary_action:
         text: Get Started
-        url: https://hugoblox.com/templates/
+        url: https://www.comet-toolkit.org/
         icon: rocket-launch
-      secondary_action:
-        text: Read the docs
-        url: https://docs.hugoblox.com
+      # secondary_action:
+      #   text: Read the docs
+      #   url: https://docs.hugoblox.com
       announcement:
-        text: "Announcing the release of version 1."
+        text: "latest software updates"
         link:
           text: "Read more"
           url: "/blog/"
@@ -61,27 +61,27 @@ sections:
   - block: features
     id: features
     content:
-      title: Features
-      text: Build your site with blocks 🧱
+      title: tools
+      text: a list of tools which abstract away the complexity of dealing with uncertainties
       items:
-        - name: Optimized SEO
-          icon: magnifying-glass
-          description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
-        - name: Fast
-          icon: bolt
-          description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
-        - name: Easy
-          icon: sparkles
-          description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
-        - name: No-Code
+        - name: comet_maths
           icon: code-bracket
-          description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
-        - name: Highly Rated
+          description: useful mathematical algorithms, including interpolation with uncertainties
+        - name: punpy
           icon: star
-          description: Rated 5-stars by the community.
-        - name: Swappable Blocks
-          icon: rectangle-group
-          description: Build your pages with blocks - no coding required!
+          description: propagates uncertainties on input quantities through any python function, evaluating the uncertainty on the output
+        - name: obsarray
+          icon: sparkles
+          description: an extension to xarray for defining, storing and interfacing with uncertainty and measurement error-covariance information in NetCDF files using standardised metadata
+        # - name: punpy
+        #   icon: code-bracket
+        #   description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
+        # - name: Highly Rated
+        #   icon: star
+        #   description: Rated 5-stars by the community.
+        # - name: Swappable Blocks
+        #   icon: rectangle-group
+        #   description: Build your pages with blocks - no coding required!
   - block: cta-image-paragraph
     id: solutions
     content:
