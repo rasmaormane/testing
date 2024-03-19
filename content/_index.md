@@ -67,9 +67,9 @@ sections:
         - name: comet_maths
           icon: code-bracket
           description: useful mathematical algorithms, including interpolation with uncertainties
-          button:
-            text: comet_maths
-            url: https://www.comet-toolkit.org/tools/comet_maths/
+          # button:
+          #   text: comet_maths
+          #   url: https://www.comet-toolkit.org/tools/comet_maths/
         - name: punpy
           icon: star
           description: propagates uncertainties on input quantities through any python function, evaluating the uncertainty on the output
