@@ -58,7 +58,7 @@ sections:
     #   # Reduce spacing
     #   spacing:
     #     padding: ["1rem", 0, "1rem", 0]
-  - block: tools
+  - block: collection
     id: tools
     content:
       title: tools
