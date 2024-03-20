@@ -58,6 +58,21 @@ sections:
     #   # Reduce spacing
     #   spacing:
     #     padding: ["1rem", 0, "1rem", 0]
+  - block: cta-image-paragraph
+    id: about
+    content:
+      items:
+        - title: Community Metrology Toolkit
+          text: Be certain in your uncertainties!
+          feature_icon: check
+          features:
+            - "Handle, process & store measurement data uncertainties"
+          # Upload image to `assets/media/` and reference the filename here
+          image: build-website.png
+          button:
+            text: Learn More
+            url: https://www.comet-toolkit.org/
+            icon: rocket-launch
   - block: features
     id: tools
     content:
@@ -77,20 +92,6 @@ sections:
         - name: obsarray
           icon: sparkles
           description: an extension to xarray for defining, storing and interfacing with uncertainty and measurement error-covariance information in NetCDF files using standardised metadata
-  - block: cta-image-paragraph
-    id: about
-    content:
-      items:
-        - title: Community Metrology Toolkit
-          text: Be certain in your uncertainties!
-          feature_icon: check
-          features:
-            - "Handle, process & store measurement data uncertainties"
-          # Upload image to `assets/media/` and reference the filename here
-          image: build-website.png
-          button:
-            text: Learn More
-            url: https://www.comet-toolkit.org/
     design:
     #   # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
@@ -102,14 +103,15 @@ sections:
           text: Exploring the possibilitites of CoMet 
           feature_icon: bolt
           features:
-            - "Quantifying uncertainties"
-            - "Creating digital effects tables"
-            - "Validating measuriments"
+            - "Quantify uncertainties"
+            - "Create digital effects tables"
+            - "Validate measuriments"
           # Upload image to `assets/media/` and reference the filename here
           image: coffee.jpg
           button:
-            text: More Examples
+            text: More
             url: https://www.comet-toolkit.org/examples/
+            icon: rocket-launch
   # - block: testimonials
   #   content:
   #     title: ""
