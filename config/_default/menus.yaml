@@ -4,36 +4,37 @@
 
 main:
   - name: home
-    url: /#top
+    url: /home
     weight: 10
   - name: tools
-    url: /#features
+    url: /tools
     weight: 20
     hasChildren: true
   - parent: tools
     name: comet_maths
-    url: comet_maths/
+    url: /comet_maths
   - parent: tools
     name: obsarray
-    url: obsarray/
+    url: /obsarray
   - parent: tools
     name: punpy
     url: punpy/
   - name: about
-    url: /#solutions
+    url: /about
     weight: 30
-  - name: user guide
+  - name: user_guide
+    url: /user_guide
     weight: 40
     hasChildren: true
-  - parent: user guide
+  - parent: user_guide
     name: articles
-    url:  articles/
+    url:  /articles
   - parent: user guide
     name: examples
-    url: examples/
+    url: /examples
   - name: news
-    url: /#news
+    url: /news
     weight: 50
   - name: people
-    url: /#people
+    url: /people
     weight: 60
