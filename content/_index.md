@@ -91,9 +91,9 @@ sections:
           button:
             text: Learn More
             url: https://www.comet-toolkit.org/
-    design:
-      # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
+    # design:
+    #   # Section background color (CSS class)
+    #   css_class: "bg-gray-100 dark:bg-gray-900"
     - block: cta-image-paragraph
     id: examples
     content:
