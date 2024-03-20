@@ -91,7 +91,7 @@ sections:
           button:
             text: Get Started
             url: https://www.comet-toolkit.org/
-        - title: Latest News
+        - title: Examples
           text: Exploring the possibilitites of CoMet 
           feature_icon: bolt
           features:
