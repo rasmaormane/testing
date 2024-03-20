@@ -22,12 +22,15 @@ main:
   - name: about
     url: /about
     weight: 30
-  - name: user_guide
+  - name: user guide
     url: /user_guide
     weight: 40
     hasChildren: true
-  - parent: user_guide
-    name: articles
+  - parent: user guide
+    name: getting started
+    url:  /getting_started
+  - parent: user guide
+    name: educational articles
     url:  /articles
   - parent: user guide
     name: examples
