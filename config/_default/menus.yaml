@@ -7,7 +7,7 @@ main:
     url: /home
     weight: 10
   - name: tools
-    url: /tools
+    url: /#tools
     weight: 20
     hasChildren: true
   - parent: tools
@@ -20,7 +20,7 @@ main:
     name: punpy
     url: punpy/
   - name: about
-    url: /about
+    url: /#about
     weight: 30
   - name: user guide
     url: /user_guide
@@ -34,7 +34,7 @@ main:
     url:  /articles
   - parent: user guide
     name: examples
-    url: /examples
+    url: /#examples
   - name: news
     url: /news
     weight: 50

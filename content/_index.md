@@ -89,8 +89,15 @@ sections:
           # Upload image to `assets/media/` and reference the filename here
           image: build-website.png
           button:
-            text: Get Started
+            text: Learn More
             url: https://www.comet-toolkit.org/
+    design:
+      # Section background color (CSS class)
+      css_class: "bg-gray-100 dark:bg-gray-900"
+    - block: cta-image-paragraph
+    id: examples
+    content:
+      items:
         - title: Examples
           text: Exploring the possibilitites of CoMet 
           feature_icon: bolt
@@ -101,11 +108,8 @@ sections:
           # Upload image to `assets/media/` and reference the filename here
           image: coffee.jpg
           button:
-            text: More examples
+            text: More Examples
             url: https://www.comet-toolkit.org/examples/
-    design:
-      # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
   # - block: testimonials
   #   content:
   #     title: ""
