@@ -8,7 +8,7 @@ tags:
   - CoMet
   - Obsarray
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  #caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
 

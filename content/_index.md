@@ -100,7 +100,7 @@ sections:
     id: examples
     content:
       items:
-        - title: Examples
+        - title: examples
           text: Exploring the possibilitites of CoMet 
           feature_icon: bolt
           features:
