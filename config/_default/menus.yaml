@@ -18,8 +18,8 @@ main:
     url:  user-guide/getting_started
     weight: 30
   - parent: user guide
-    name: education
-    url:  user-guide/education/
+    name: theory
+    url:  user-guide/theory/
     weight: 30
   - parent: user guide
     name: examples
