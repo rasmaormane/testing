@@ -42,7 +42,7 @@ main:
     url: punpy/
     weight: 40
   - name: news
-    url: /news
+    url: content/news/
     weight: 50
   - name: people
     url: authors/admin/

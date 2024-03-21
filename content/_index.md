@@ -23,7 +23,7 @@ sections:
         text: "for the latest updates"
         link:
           text: "click here"
-          url: "/news"
+          url: "content/news/"
     design:
       spacing:
         padding: [0, 0, 0, 0]
