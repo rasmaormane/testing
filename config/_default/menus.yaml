@@ -4,7 +4,7 @@
 
 main:
   - name: home
-    url: /home
+    url: /#top
     weight: 10
   - name: tools
     url: /#tools

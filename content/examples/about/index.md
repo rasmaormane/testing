@@ -13,20 +13,20 @@ authors:
   - Ted
 
 tags:
-  - Academic
-  - Hugo Blox
-  - Markdown
+  - CoMet
+  - Metrology
+  - Uncertainties
 ---
 
 <!-- Welcome 👋 -->
 
-## What is CoMet Toolkit?
+## ❔ What is CoMet Toolkit?
 
   **Community Metrology** (CoMet) **Toolkit** is a set of software tools that can handle, process, and store measurement data uncertainties.
 
   A notable feature of this toolkit lies in its abilities to deal with the complexities of combining individual uncertainties from various sources. It not only propagates the final combined uncertainties but also provides information about the error-correlation. 
 
-## Why is CoMet Toolkit relevant?
+## 💡 Why is CoMet Toolkit relevant?
 
   To ensure credible and reliable interpretation of data, the associated uncertainty information ought to be provided. Oftentimes it is made up of a multitude of sources combined through the processing chain. Each source affects the final product at varying levels.
   
@@ -37,7 +37,7 @@ tags:
 - handling random and systemic uncertainties separately
 - _many more_
 
-## What can CoMet Toolkit be used for?
+## 📋 What can CoMet Toolkit be used for?
 
   CoMet toolkit can be used to:
   
@@ -52,13 +52,13 @@ tags:
   
   Despite its origins, CoMet can be applied to any field that requires measurement uncertainty propagation. 
 
-## Where can CoMet Toolkit be accessed?
+## 🖥️ Where can CoMet Toolkit be accessed?
 
   **Examples** demonstrating the capabilities of this toolkit are available [**here**](https://www.comet-toolkit.org/examples/). 
   
   A **GitHub** containing CoMet's modules can be found [**here**](https://github.com/comet-toolkit). 
 
-## Authors & Citations
+## 👋 Authors & Citations
 
   **Developed by:** National Physical Laboratory (NPL)
   
@@ -118,7 +118,7 @@ As a token of appreciation for sponsoring, you can **unlock [these](https://hugo
 - **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
 - **One-Click Deployment** - No servers. No databases. Only files. -->
 
-## Themes
+<!-- ## Themes
 
 Hugo Blox and its templates come with **automatic day (light) and night (dark) mode** built-in. Visitors can choose their preferred mode by clicking the sun/moon icon in the header.
 
@@ -128,4 +128,4 @@ Hugo Blox and its templates come with **automatic day (light) and night (dark) m
 
 Copyright 2016-present [George Cushen](https://georgecushen.com).
 
-Released under the [MIT](https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md) license.
+Released under the [MIT](https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md) license. -->

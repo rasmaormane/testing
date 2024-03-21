@@ -23,7 +23,7 @@ sections:
         text: "for the latest software updates"
         link:
           text: "click here"
-          url: "/blog/"
+          url: "examples/about"
     design:
       spacing:
         padding: [0, 0, 0, 0]
