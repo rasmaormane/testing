@@ -1,7 +1,7 @@
 ---
-title: 🧠 Sharpen your thinking with a second brain
-summary: Create a personal knowledge base and share your knowledge with your peers.
-date: 2023-10-26
+title: Processing chains
+summary: How to propagate errors in a measurement chain? 
+date: 2024-03-21
 authors:
   - admin
 tags:
