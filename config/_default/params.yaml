@@ -37,6 +37,9 @@ header:
       text: ""
       # Logo filename in `assets/media/` folder
       filename: "logo.png"
+      width: auto
+      height: 120px
+      max-width: fit-content
     button:
       enable: false
       text: "Get Started"

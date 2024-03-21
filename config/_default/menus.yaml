@@ -45,5 +45,5 @@ main:
     url: /news
     weight: 50
   - name: people
-    url: authors/
+    url: authors/admin/
     weight: 60
