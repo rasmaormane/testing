@@ -112,7 +112,7 @@ sections:
           caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
           button:
             text: More
-            url: examples/
+            url: user-guide/examples/
             icon: rocket-launch
   # - block: testimonials
   #   content:

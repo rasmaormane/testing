@@ -8,10 +8,10 @@ main:
     weight: 10
   - name: about
     url: about/
-    weight: 30
+    weight: 20
   - name: user guide
     url: /user_guide
-    weight: 40
+    weight: 30
     hasChildren: true
   - parent: user guide
     name: getting started
@@ -24,7 +24,7 @@ main:
     url: user-guide/examples/
   - name: tools
     url: /#tools
-    weight: 20
+    weight: 40
     hasChildren: true
   - parent: tools
     name: comet_maths
