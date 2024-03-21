@@ -6,19 +6,6 @@ main:
   - name: home
     url: /#top
     weight: 10
-  - name: tools
-    url: /#tools
-    weight: 20
-    hasChildren: true
-  - parent: tools
-    name: comet_maths
-    url: /comet_maths
-  - parent: tools
-    name: obsarray
-    url: /obsarray
-  - parent: tools
-    name: punpy
-    url: punpy/
   - name: about
     url: about/
     weight: 30
@@ -35,9 +22,22 @@ main:
   - parent: user guide
     name: examples
     url: examples/
+    - name: tools
+    url: /#tools
+    weight: 20
+    hasChildren: true
+  - parent: tools
+    name: comet_maths
+    url: /comet_maths
+  - parent: tools
+    name: obsarray
+    url: /obsarray
+  - parent: tools
+    name: punpy
+    url: punpy/
   - name: news
     url: /news
     weight: 50
   - name: people
-    url: /people
+    url: admin/
     weight: 60
