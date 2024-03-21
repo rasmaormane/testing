@@ -15,11 +15,11 @@ main:
     hasChildren: true
   - parent: user guide
     name: getting started
-    url:  /getting_started
+    url:  user-guide/getting_started
     weight: 30
   - parent: user guide
     name: education
-    url:  /education
+    url:  user-guide/education/
     weight: 30
   - parent: user guide
     name: examples
@@ -45,5 +45,5 @@ main:
     url: /news
     weight: 50
   - name: people
-    url: authors/admin/
+    url: authors/
     weight: 60

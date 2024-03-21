@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Ms
+title: Rasma Ormane
 
 # Name pronunciation (optional)
 #name_pronunciation: Chien Shiung Wu
@@ -22,7 +22,7 @@ role: Graduate Scientist
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: National Physical Laboratory
-    url: https://www.stanford.edu/
+    url: https://www.npl.co.uk/
 
 # Short bio (displayed in user profile at end of posts)
 bio: Climate & Earth Observations
