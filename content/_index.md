@@ -71,7 +71,7 @@ sections:
           image: build-website.png
           button:
             text: Learn More
-            url: https://www.comet-toolkit.org/
+            url: about/
             icon: rocket-launch
   - block: features
     id: tools
