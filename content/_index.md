@@ -11,7 +11,7 @@ sections:
   - block: hero
     content:
       title: CoMet
-      text: be certain in your uncertainties
+      text: Be certain in your uncertainties!
       primary_action:
         text: Get Started
         url: user-guide/getting-started
@@ -63,10 +63,10 @@ sections:
     content:
       items:
         - title: Community Metrology Toolkit
-          text: Be certain in your uncertainties!
+          text: An open-source software project for assessing data uncertainties.
           feature_icon: check
           features:
-            - "Handle, process & store measurement data uncertainties"
+            - "Handle, process & store measurement uncertainties"
           # Upload image to `assets/media/` and reference the filename here
           image: build-website.png
           caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
@@ -77,8 +77,8 @@ sections:
   - block: features
     id: tools
     content:
-      title: tools
-      text: a list of tools which abstract away the complexity of dealing with uncertainties
+      title: Tools
+      text: A list of tools which abstract away the complexity of dealing with uncertainties.
       items:
         - name: comet_maths
           icon: code-bracket
@@ -100,8 +100,8 @@ sections:
     id: examples
     content:
       items:
-        - title: examples
-          text: Exploring the possibilitites of CoMet 
+        - title: Examples
+          text: Exploring the possibilitites of CoMet!
           feature_icon: bolt
           features:
             - "Quantify uncertainties"
