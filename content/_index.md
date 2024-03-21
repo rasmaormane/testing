@@ -11,7 +11,7 @@ sections:
   - block: hero
     content:
       title: CoMet
-      text: Community Metrology Toolkit
+      text: be certain in your uncertainties
       primary_action:
         text: Get Started
         url: user-guide/getting-started
