@@ -14,16 +14,16 @@ sections:
       text: Community Metrology Toolkit
       primary_action:
         text: Get Started
-        url: https://www.comet-toolkit.org/
+        url: user-guide/getting-started
         icon: rocket-launch
       # secondary_action:
       #   text: Read the docs
       #   url: https://docs.hugoblox.com
       announcement:
-        text: "for the latest software updates"
+        text: "for the latest updates"
         link:
           text: "click here"
-          url: "examples/about"
+          url: "/news"
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -35,7 +35,6 @@ sections:
         image:
           # Add your image background to `assets/media/`.
           filename: background.jpg
-          caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
           filters:
             brightness: 0.5
   # - block: stats
@@ -70,6 +69,7 @@ sections:
             - "Handle, process & store measurement data uncertainties"
           # Upload image to `assets/media/` and reference the filename here
           image: build-website.png
+          caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
           button:
             text: Learn More
             url: about/
@@ -109,6 +109,7 @@ sections:
             - "Validate measuriments"
           # Upload image to `assets/media/` and reference the filename here
           image: coffee.jpg
+          caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
           button:
             text: More
             url: examples/
