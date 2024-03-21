@@ -30,11 +30,11 @@ main:
     name: getting started
     url:  /getting_started
   - parent: user guide
-    name: educational articles
-    url:  /articles
+    name: education
+    url:  /education
   - parent: user guide
     name: examples
-    url: /#examples
+    url: examples/
   - name: news
     url: /news
     weight: 50

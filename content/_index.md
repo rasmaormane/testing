@@ -110,7 +110,7 @@ sections:
           image: coffee.jpg
           button:
             text: More
-            url: https://www.comet-toolkit.org/examples/
+            url: examples/
             icon: rocket-launch
   # - block: testimonials
   #   content:
