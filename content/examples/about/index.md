@@ -1,7 +1,7 @@
 ---
 title: CoMet
-summary: What is CoMet toolkit and what can it be used for?
-date: 2024-19-03
+summary: What is CoMet Toolkit and what can it be used for?
+date: 2024-03-19
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
@@ -66,7 +66,7 @@ tags:
   - **CoMet:** The UK’s Department for Business, Energy and Industrial Strategy’s (BEIS) National Measurement System (NMS) programme
   - **IDEAS-QA4EO:** European Space Agency (ESA)
   
-  **Citation:** insert full citation here 
+  **Citation:** _insert full citation here_ 
 
 
 <!-- 1. The Hugo Blox website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
