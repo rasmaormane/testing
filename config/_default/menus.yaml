@@ -22,7 +22,7 @@ main:
   - parent: user guide
     name: examples
     url: examples/
-    - name: tools
+  - name: tools
     url: /#tools
     weight: 20
     hasChildren: true
