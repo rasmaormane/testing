@@ -16,12 +16,15 @@ main:
   - parent: user guide
     name: getting started
     url:  /getting_started
+    weight: 30
   - parent: user guide
     name: education
     url:  /education
+    weight: 30
   - parent: user guide
     name: examples
     url: user-guide/examples/
+    weight: 30
   - name: tools
     url: /#tools
     weight: 40
@@ -29,12 +32,15 @@ main:
   - parent: tools
     name: comet_maths
     url: /comet_maths
+    weight: 40
   - parent: tools
     name: obsarray
     url: /obsarray
+    weight: 40
   - parent: tools
     name: punpy
     url: punpy/
+    weight: 40
   - name: news
     url: /news
     weight: 50

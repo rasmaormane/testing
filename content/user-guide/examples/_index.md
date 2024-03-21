@@ -1,3 +1,3 @@
 ---
-title: examples
+title: education
 ---
