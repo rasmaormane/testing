@@ -3,47 +3,47 @@
 #   The `weight` parameter defines the order that the links will appear in.
 
 main:
-  - name: home
+  - name: Home
     url: /#top
     weight: 10
-  - name: about
+  - name: About
     url: about/
     weight: 20
-  - name: user guide
+  - name: User Guide
     url: /user_guide
     weight: 30
     hasChildren: true
-  - parent: user guide
-    name: getting started
+  - parent: User Guide
+    name: Getting started
     url:  user-guide/getting_started
     weight: 30
-  - parent: user guide
-    name: theory
+  - parent: User Guide
+    name: Theory
     url:  user-guide/theory/
     weight: 30
-  - parent: user guide
-    name: examples
+  - parent: User Guide
+    name: Examples
     url: user-guide/examples/
     weight: 30
-  - name: tools
+  - name: Tools
     url: /#tools
     weight: 40
     hasChildren: true
-  - parent: tools
+  - parent: Tools
     name: comet_maths
     url: /comet_maths
     weight: 40
-  - parent: tools
+  - parent: Tools
     name: obsarray
     url: /obsarray
     weight: 40
-  - parent: tools
+  - parent: Tools
     name: punpy
     url: punpy/
     weight: 40
-  - name: news
+  - name: News
     url: content/news/
     weight: 50
-  - name: people
+  - name: People
     url: authors/admin/
     weight: 60
