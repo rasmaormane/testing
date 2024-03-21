@@ -35,6 +35,7 @@ sections:
         image:
           # Add your image background to `assets/media/`.
           filename: background.jpg
+          caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
           filters:
             brightness: 0.5
   # - block: stats

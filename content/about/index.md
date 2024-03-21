@@ -1,5 +1,5 @@
 ---
-title: CoMet
+title: about CoMet
 summary: What is CoMet Toolkit and what can it be used for?
 date: 2024-03-19
 
@@ -10,12 +10,11 @@ image:
 
 authors:
   - admin
-  - Ted
 
-tags:
-  - CoMet
-  - Metrology
-  - Uncertainties
+# tags:
+#   - CoMet
+#   - Metrology
+#   - Uncertainties
 ---
 
 <!-- Welcome 👋 -->

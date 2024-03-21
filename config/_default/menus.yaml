@@ -21,7 +21,7 @@ main:
     url:  /education
   - parent: user guide
     name: examples
-    url: examples/
+    url: user-guide/examples/
   - name: tools
     url: /#tools
     weight: 20
@@ -39,5 +39,5 @@ main:
     url: /news
     weight: 50
   - name: people
-    url: admin/
+    url: authors/admin/
     weight: 60
