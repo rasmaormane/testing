@@ -37,9 +37,6 @@ header:
       text: ""
       # Logo filename in `assets/media/` folder
       filename: "logo.svg"
-      # width: auto
-      # height: 220px
-      # max-width: fit-content
     button:
       enable: false
       text: "Get Started"
@@ -47,12 +44,68 @@ header:
     show_search: true
     show_theme_chooser: true
 
+
+  image:
+    width: 400px
+    height: 400px
+
+body:
+  text-align: justify
+
 # Site footer
 footer:
   copyright:
     notice: '© 2023 NPL. This work is licensed under GNU LGPL-3.0'
 
+
 # Localization
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
+
+# Site features
+
+features:
+  syntax_highlighter:
+    enable: false
+    extra_languages:
+      - r
+      - latex
+  math:
+    enable: false
+  privacy_pack:
+    enable: false
+  repository:
+    url: 'https://github.com/<username>/<repository>'
+    content_dir: content
+    branch: main
+  avatar:
+    gravatar: false
+    shape: circle
+  comment:
+    provider: ''
+    disqus:
+      shortname: ''
+      show_count: true
+    commento:
+      url: ''
+  search:
+    provider: wowchemy
+    algolia:
+      app_id: ''
+      api_key: ''
+      index_name: ''
+      show_logo: false
+  map:
+    provider: 'mapnik'
+    api_key: ''
+    zoom: 15
+
+# Extensions
+
+extensions:
+  cms:
+    branch: main
+    local_backend: false
+  academicons:
+    enable: true
