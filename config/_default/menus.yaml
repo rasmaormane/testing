@@ -4,18 +4,18 @@
 
 main:
   - name: Home
-    url: home/
+    url: /#top
     weight: 10
   - name: About
     url: about/
     weight: 20
   - name: User Guide
-    url: /user_guide
+    url: /user-guide
     weight: 30
     hasChildren: true
   - parent: User Guide
     name: Getting started
-    url:  user-guide/getting_started
+    url:  user-guide/getting-started
     weight: 30
   - parent: User Guide
     name: Theory
@@ -31,18 +31,18 @@ main:
     hasChildren: true
   - parent: Tools
     name: comet_maths
-    url: /comet_maths
+    url: tools/comet-maths/
     weight: 40
   - parent: Tools
     name: obsarray
-    url: /obsarray
+    url: tools/obsarray/
     weight: 40
   - parent: Tools
     name: punpy
-    url: punpy/
+    url: tools/punpy/
     weight: 40
   - name: News
-    url: content/news/
+    url: news
     weight: 50
   - name: People
     url: people
