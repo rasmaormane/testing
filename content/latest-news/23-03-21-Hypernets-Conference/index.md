@@ -1,93 +1,30 @@
 ---
-title: Punpy as a standalone package
-summary: How to use the Punpy tool?
-date: 2024-03-19
+title: HYPERNETS Science Conference
+summary: CoMet poster was presented at the HYPERNETS science conference.
+date: 2022-11-07
 authors:
   - admin
 tags:
-  - CoMet
-  - Punpy
+  - Poster
+  - HYPERNETS
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  caption: 'Image credit: [**hypernets_processor**](https://hypernets-processor.readthedocs.io/)'
+  focal_point: 'top'
 ---
 
+The HYPERNETS project has developed a new hyperspectral radiometer integrated in automated 
+networks of water and land bidirectional reflectance measurements for satellite validation.
+A detailed uncertainty budget was measured in the lab for these instruments, and these uncertainties 
+are propagated from product to product using the CoMet toolkit within the hypernets_processor. 
+All HYPERNETS products are provided as obsarray-compatible digital effects tables. For the HYPERNETS
+vicarious calibration study, the uncertainties in these files are also propagated to TOA using punpy.
 
-<!-- ## Ideation
+## ❔ What is HYPERNETS?
 
-Hugo Blox supports a Markdown extension for mindmaps.
+The HYPERNETS project has developed a new hyperspectral radiometer integrated in automated networks of water and land bidirectional reflectance measurements for satellite validation. 
 
-Simply insert a Markdown code block labelled as `markmap` and optionally set the height of the mindmap as shown in the example below.
+## ❕ How is the CoMet Toolkit contributing to HYPERNETS?
 
-Mindmaps can be created by simply writing the items as a Markdown list within the `markmap` code block, indenting each item to create as many sub-levels as you need:
+A detailed uncertainty budget was measured in the lab for the HYPERNETS instruments. These uncertainties were then propagated from product to product using the CoMet Toolkit within the hypernets_processor. 
 
-<div class="highlight">
-<pre class="chroma">
-<code>
-```markmap {height="200px"}
-- Hugo Modules
-  - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
-```
-</code>
-</pre>
-</div>
-
-renders as
-
-```markmap {height="200px"}
-- Hugo Modules
-  - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
-```
-
-## Diagrams
-
-Hugo Blox supports the _Mermaid_ Markdown extension for diagrams.
-
-An example **Gantt diagram**:
-
-    ```mermaid
-    gantt
-    section Section
-    Completed :done,    des1, 2014-01-06,2014-01-08
-    Active        :active,  des2, 2014-01-07, 3d
-    Parallel 1   :         des3, after des1, 1d
-    Parallel 2   :         des4, after des1, 1d
-    Parallel 3   :         des5, after des3, 1d
-    Parallel 4   :         des6, after des4, 1d
-    ```
-
-renders as
-
-```mermaid
-gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-```
-
-## Todo lists
-
-You can even write your todo lists in Markdown too:
-
-```markdown
-- [x] Write math example
-  - [x] Write diagram example
-- [ ] Do something else
-```
-
-renders as
-
-- [x] Write math example
-  - [x] Write diagram example
-- [ ] Do something else
-
-## Did you find this page helpful? Consider sharing it 🙌 -->
+All HYPERNETS products are provided as obsarray-compatible digital effects tables. For the HYPERNETS vicarious calibration study, the uncertainties in these files are also propagated to TOA using punpy.

@@ -5,8 +5,8 @@ date: 2022-05-11
 authors:
   - admin
 tags:
-  - CoMet
-  - Obsarray
+  - Website
+  - GitHub
 image:
   #caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
