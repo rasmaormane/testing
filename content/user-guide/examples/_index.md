@@ -2,5 +2,4 @@
 title: Examples
 type: blog
 
-
 ---
