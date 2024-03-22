@@ -49,8 +49,8 @@ header:
     show_theme_chooser: true
     highlight_active_link: true
   image:
-    width: 600px
-    height: 600px
+    width: 400px
+    height: 400px
 
 body:
   text-align: justify
