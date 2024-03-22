@@ -36,10 +36,10 @@ header:
     logo:
       text: ""
       # Logo filename in `assets/media/` folder
-      filename: "logo.png"
-      width: auto
-      height: 220px
-      max-width: fit-content
+      filename: "logo.svg"
+      # width: auto
+      # height: 220px
+      # max-width: fit-content
     button:
       enable: false
       text: "Get Started"
