@@ -7,7 +7,7 @@
 appearance:
   mode: light
   color: indigo
-  font: "Times New Roman", Times, serif #native
+  font: native
   font_size: L
 
 # SEO
