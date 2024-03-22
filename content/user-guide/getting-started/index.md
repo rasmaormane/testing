@@ -1,5 +1,5 @@
 ---
-title: getting started with CoMet
+title: Getting started with CoMet
 date: 2024-03-21
 
 # Featured image
