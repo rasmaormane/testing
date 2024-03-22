@@ -31,15 +31,15 @@ main:
     hasChildren: true
   - parent: Tools
     name: comet_maths
-    url: tools/comet_maths/
+    url: tools/comet_maths
     weight: 40
   - parent: Tools
     name: obsarray
-    url: tools/obsarray/
+    url: tools/obsarray
     weight: 40
   - parent: Tools
     name: punpy
-    url: tools/punpy/
+    url: tools/punpy
     weight: 40
   - name: News
     url: latest-news
