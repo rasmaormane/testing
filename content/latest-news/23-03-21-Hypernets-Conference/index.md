@@ -1,14 +1,14 @@
 ---
-title: Digital Effects Table
-summary: How to define a digital effect table?
-date: 2024-03-20
+title: Punpy as a standalone package
+summary: How to use the Punpy tool?
+date: 2024-03-19
 authors:
   - admin
 tags:
   - CoMet
-  - Obsarray
+  - Punpy
 image:
-  #caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
 
