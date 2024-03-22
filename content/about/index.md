@@ -1,5 +1,5 @@
 ---
-title: about CoMet
+title: Welcome to CoMet Toolkit!
 summary: What is CoMet Toolkit and what can it be used for?
 date: 2024-03-19
 
