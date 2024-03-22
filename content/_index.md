@@ -20,7 +20,7 @@ sections:
       #   text: Read the docs
       #   url: https://docs.hugoblox.com
       announcement:
-        text: "for the latest updates"
+        text: "For the latest updates"
         link:
           text: "click here"
           url: "content/news/"
