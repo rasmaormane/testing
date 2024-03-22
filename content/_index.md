@@ -83,16 +83,16 @@ sections:
         - name: comet_maths
           icon: code-bracket
           description: useful mathematical algorithms, including interpolation with uncertainties
-        button:
-          text: Learn More
-          url: https://www.comet-toolkit.org/tools/comet_maths/
-          icon: rocket-launch
         - name: punpy
           icon: star
           description: propagates uncertainties on input quantities through any python function, evaluating the uncertainty on the output
         - name: obsarray
           icon: sparkles
           description: an extension to xarray for defining, storing and interfacing with uncertainty and measurement error-covariance information in NetCDF files using standardised metadata
+          button:
+            text: Learn More
+            url: https://www.comet-toolkit.org/tools/comet_maths/
+            icon: rocket-launch
     design:
     #   # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
