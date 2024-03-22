@@ -33,12 +33,12 @@ header:
     blox: "navbar"
     align: "center"
     fixed_to_top: true
-    show_logo: true
+    #show_logo: true
     show_day_night: true
-    # logo:
-    #   text: ""
-    #   # Logo filename in `assets/media/` folder
-    #   filename: "logo.svg"
+    logo:
+      text: ""
+      # Logo filename in `assets/media/` folder
+      filename: "logo.svg"
     button:
       enable: false
       text: "Get Started"
@@ -46,9 +46,9 @@ header:
     show_search: true
     show_theme_chooser: true
     highlight_active_link: true
-  image:
-    width: 400px
-    height: 400px
+  # image:
+  #   width: 400px
+  #   height: 400px
 
 body:
   text-align: justify
@@ -64,43 +64,43 @@ locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
 
-# Site features
+# # Site features
 
-features:
-  syntax_highlighter:
-    enable: false
-    extra_languages:
-      - r
-      - latex
-  math:
-    enable: false
-  privacy_pack:
-    enable: false
-  repository:
-    url: 'https://github.com/<username>/<repository>'
-    content_dir: content
-    branch: main
-  avatar:
-    gravatar: false
-    shape: circle
-  comment:
-    provider: ''
-    disqus:
-      shortname: ''
-      show_count: true
-    commento:
-      url: ''
-  search:
-    provider: wowchemy
-    algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
-      show_logo: false
-  map:
-    provider: 'mapnik'
-    api_key: ''
-    zoom: 15
+# features:
+#   syntax_highlighter:
+#     enable: false
+#     extra_languages:
+#       - r
+#       - latex
+#   math:
+#     enable: false
+#   privacy_pack:
+#     enable: false
+#   repository:
+#     url: 'https://github.com/<username>/<repository>'
+#     content_dir: content
+#     branch: main
+#   avatar:
+#     gravatar: false
+#     shape: circle
+#   comment:
+#     provider: ''
+#     disqus:
+#       shortname: ''
+#       show_count: true
+#     commento:
+#       url: ''
+#   search:
+#     provider: wowchemy
+#     algolia:
+#       app_id: ''
+#       api_key: ''
+#       index_name: ''
+#       show_logo: false
+#   map:
+#     provider: 'mapnik'
+#     api_key: ''
+#     zoom: 15
 
 # Extensions
 
