@@ -14,7 +14,7 @@ main:
     weight: 30
     hasChildren: true
   - parent: User Guide
-    name: Getting started
+    name: Getting Started
     url:  user-guide/getting-started
     weight: 30
   - parent: User Guide
@@ -42,7 +42,7 @@ main:
     url: tools/punpy/
     weight: 40
   - name: News
-    url: news
+    url: latest-news
     weight: 50
   - name: People
     url: people
