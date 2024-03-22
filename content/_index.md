@@ -83,10 +83,10 @@ sections:
         - name: comet_maths
           icon: code-bracket
           description: useful mathematical algorithms, including interpolation with uncertainties
-          button:
-            text: Learn More
-            url: https://www.comet-toolkit.org/tools/comet_maths/
-            icon: rocket-launch
+        button:
+          text: Learn More
+          url: https://www.comet-toolkit.org/tools/comet_maths/
+          icon: rocket-launch
         - name: punpy
           icon: star
           description: propagates uncertainties on input quantities through any python function, evaluating the uncertainty on the output
@@ -100,18 +100,18 @@ sections:
     id: examples
     content:
       items:
-        - title: Examples
-          text: Exploring the possibilitites of CoMet!
+        - title: Exploring the possibilitites!
+          text: CoMet can be used to :
           feature_icon: bolt
           features:
             - "Quantify uncertainties"
             - "Create digital effects tables"
-            - "Validate measuriments"
+            - "Validate measurements"
           # Upload image to `assets/media/` and reference the filename here
           image: coffee.jpg
           caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
           button:
-            text: More
+            text: More applications
             url: user-guide/examples/
             icon: rocket-launch
   # - block: testimonials
