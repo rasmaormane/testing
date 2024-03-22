@@ -89,10 +89,10 @@ sections:
         - name: obsarray
           icon: sparkles
           description: an extension to xarray for defining, storing and interfacing with uncertainty and measurement error-covariance information in NetCDF files using standardised metadata
-          #button:
-          #  text: Learn More
-          #  url: https://www.comet-toolkit.org/tools/comet_maths/
-          #  icon: rocket-launch
+          button:
+            text: Learn More
+            url: https://www.comet-toolkit.org/tools/comet_maths/
+            icon: rocket-launch
     design:
     #   # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
@@ -101,7 +101,7 @@ sections:
     content:
       items:
         - title: Exploring the possibilitites!
-          text: CoMet can be used to :
+          text: CoMet can be used to
           feature_icon: bolt
           features:
             - "Quantify uncertainties"
