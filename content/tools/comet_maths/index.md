@@ -12,7 +12,7 @@ authors:
 ## 📍 Where can *comet_maths* be found?
 
 The *comet_maths* documentation is available [here](https://comet_maths.readthedocs.io/en/latest/).
-There are also jupyter notebooks available in the [example section](user-guide/examples).
+There are also jupyter notebooks available in the [example section](/examples).
 
 ## 📋 What can *comet_maths* tool be used for?
 

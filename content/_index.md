@@ -80,14 +80,14 @@ sections:
       title: Tools
       text: A list of tools which abstract away the complexity of dealing with uncertainties.
       items:
-        - title: comet_maths
+        - name: comet_maths
           icon: code-bracket
           description: useful mathematical algorithms, including interpolation with uncertainties
-          button:
-            text: Learn More
-            url: tools/comet_maths
-            icon: rocket-launch
-        - title: punpy
+          #button:
+          #  text: Learn More
+          url: tools/comet_maths
+          #  icon: rocket-launch
+        - name: punpy
           icon: star
           description: propagates uncertainties on input quantities through any python function, evaluating the uncertainty on the output
           button:
