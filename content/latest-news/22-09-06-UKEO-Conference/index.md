@@ -1,7 +1,6 @@
 ---
 title: UK EO conference
-summary: An oral presentation on the CoMet toolkit was presented during the UK National 
-Earth Observation Conference 2022.
+summary: An oral presentation on the CoMet toolkit was presented during the UK National Earth Observation Conference 2022.
 date: 2022-09-06
 authors:
   - admin
