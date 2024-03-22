@@ -31,7 +31,7 @@ main:
     hasChildren: true
   - parent: Tools
     name: comet_maths
-    url: tools/comet-maths/
+    url: tools/comet_maths/
     weight: 40
   - parent: Tools
     name: obsarray
