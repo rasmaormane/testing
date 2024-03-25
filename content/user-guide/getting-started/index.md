@@ -45,10 +45,23 @@ but more modules are planned to be developed and included in the future. For mor
     - uncertainty characteristics
     - expected outcome
 
-3. 🧾 Look through the available examples and documentation, identify similarities and plan out how the toolkit can be applied to the specific case study (which tools, what order etc). 
+3. 🧾 Identify similarities between your specific requirements and the available examples.
+
+  Look through the available examples and documentation, and plan out how the toolkit can be applied to the specific case study (which tools, what order etc). 
+
+4. 🖥️ Install the tools
+
+  - pip install comet_maths
+  - pip install punpy*
+  - pip install obsarray
+
+  _*Installing punpy will automatically install the other two tools._
 
 
-4. 🖥️ Install the toolkit (pip install comet??) 
+5. ✔️ Perform the uncertainty estimation and interpret the results (eror correlation, etc)
 
 
-5. ✔️ Perform the uncertainty estimation and interpret the results (eror correlation, etc). 
+
+6. 📈 Advanced use
+
+  - Managing memory and runtime
