@@ -30,11 +30,11 @@ It accounts for case- and source-specific characteristics of the measurements, a
 
 At this time, there are the following individual tools:
 
-{{ < Tools_children > }}
+<!-- {{ < Tools_children > }} -->
 
-  <!-- 1. comet_maths
+  1. comet_maths
   2. obsarray
-  3. punpy -->
+  3. punpy
 
 but more modules are planned to be developed and included in the future. For more detail, refer to the [**Tools Section**]({{< relref "/#tools" >}}). 
 
