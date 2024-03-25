@@ -11,7 +11,11 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!
+Uncertainties are a vital aspect of the measurmeent science, as they provide credibility and trust in tmeasured data. 
+
+Navigating the world of understanding uncertainty can be quite tricky, as oftentimes terms such as errors and uncertainties are used interchangeabli, even though they do not describe the same thing.
+
+In this brief introduction to uncertainties and their propagation, we will highlight the most important concepts and 
 
 <!-- ## Ideation
 
