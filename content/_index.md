@@ -95,18 +95,18 @@ sections:
     #   # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
 
-  - block: buttons
-    content:
-      buttons:
-        - title: comet_maths
-          icon: code-bracket
-          url: tools/comet_maths
-        - title: punpy
-          icon: star
-          url: tools/punpy
-        - title:  obsarray
-          icon: sparkles
-          url:  tools/obsarray
+  # - block: buttons
+  #   content:
+  #     buttons:
+  #       - title: comet_maths
+  #         icon: code-bracket
+  #         url: tools/comet_maths
+  #       - title: punpy
+  #         icon: star
+  #         url: tools/punpy
+  #       - title:  obsarray
+  #         icon: sparkles
+  #         url:  tools/obsarray
           
     design:
     #   # Section background color (CSS class)
