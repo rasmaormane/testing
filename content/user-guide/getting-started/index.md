@@ -30,11 +30,11 @@ It accounts for case- and source-specific characteristics of the measurements, a
 
 At this time, there are the following individual tools:
 
-{{< list_children >}}
+{{Tools_children}}
 
-  1. comet_maths
+  <!-- 1. comet_maths
   2. obsarray
-  3. punpy
+  3. punpy -->
 
 but more modules are planned to be developed and included in the future. For more detail, refer to the [**Tools Section**]({{< relref "/#tools" >}}). 
 
@@ -65,3 +65,15 @@ but more modules are planned to be developed and included in the future. For mor
 6. 📈 Advanced use
 
   - Managing memory and runtime
+
+  <!-- 
+  
+  Things to include here from Pieter
+
+  One section I would add at the end is on `advanced use' or `managing memory and runtime' or something like that, which could point to https://punpy.readthedocs.io/en/latest/content/punpy_memory_and_speed.html and other resources for how to deal with more complex/large datasets (which tend to be what people really need in practise). 
+  
+  in step 4, there is not pip install comet, but there is a pip install punpy, pip install obsarray and pip install comet_maths   (note that the punpy install also installs the other two as dependencies). in step 5, I would say uncertainty propagation rather than estimation . Is uncertainty estimation of input quantities (i.e. compiling the actual values from documentation/literature/expert knowledge) part of step 2? Or should that be a separate step after step 2? We should make sure to link this to the QA4EO `steps to an uncertainty budget' (https://qa4eo.org/docs/3_Process_Document.pdf)
+  
+  Maybe under step 2, there could be a few subsections (e.g. general/defining measurement function/quantifying uncertainties on input quantities/determining error correlations)?
+  
+  -->
