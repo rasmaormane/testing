@@ -30,7 +30,7 @@ It accounts for case- and source-specific characteristics of the measurements, a
 
 At this time, there are the following individual tools:
 
-{{Tools_children}}
+{{ < Tools_children > }}
 
   <!-- 1. comet_maths
   2. obsarray
