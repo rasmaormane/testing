@@ -36,4 +36,4 @@ At this time, there are three separate tools:
 
 but more modules are planned to be developed and included in the future. For more detail, refer to the [**Tools Section**](/#tools). 
 
-2. Identify your uncertainty estimation goals and Look through the toolkit documentation and examples
+2. Identify your uncertainty estimation goals and look through the toolkit documentation and examples
