@@ -41,6 +41,8 @@ header:
       text: ""
       # Logo filename in `assets/media/` folder
       filename: "logo.svg"
+      width: fit-content
+      height: 120px
     button:
       enable: false
       text: "Get Started"
@@ -48,9 +50,9 @@ header:
     show_search: true
     show_theme_chooser: true
     highlight_active_link: true
-  image:
-    width: 600px
-    height: 600px
+  # image:
+  #   width: 400px
+  #   height: 400px
 
 body:
   text-align: justify

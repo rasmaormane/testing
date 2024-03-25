@@ -51,7 +51,7 @@ authors:
   
   Despite its origins, CoMet can be applied to any field that requires measurement uncertainty propagation. 
 
-## 🖥️ Where can CoMet Toolkit be accessed?
+## 📍 Where can CoMet Toolkit be accessed?
 
   **Examples** demonstrating the capabilities of this toolkit are available [**here**](https://www.comet-toolkit.org/examples/). 
   
