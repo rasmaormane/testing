@@ -23,7 +23,7 @@ Welcome 👋
 
 In this brief guide we will walk you through the basic steps and prerequisists to get started with CoMet. 
 
-1.💡 Get familiar with the toolkit and its capabilitites. 
+## 1.💡 Get familiar with the toolkit and its capabilitites. 
 
 All the relevant information regarding the aims and functionality of CoMet Tolkit is outlined in the [**About Section**]({{< relref "/about" >}}). 
 
@@ -33,14 +33,13 @@ It accounts for case- and source-specific characteristics of the measurements, a
 
 At this time, there are the following individual tools:
 
-
   1. comet_maths
   2. obsarray
   3. punpy
 
 but more modules are planned to be developed and included in the future. For more detail, refer to the [**Tools Section**]({{< relref "/#tools" >}}). 
 
-2. 🗃️ Characterise the data/measurements that require the uncertainty propagation 
+## 2. 🗃️ Characterise the data/measurements that require the uncertainty propagation 
 
     <!-- - data type
     - contributing uncertainty types
@@ -52,11 +51,11 @@ but more modules are planned to be developed and included in the future. For mor
     - quantifying uncertainties on input quantities
     - determining error correlation
 
-3. 🧾 Identify similarities between your specific requirements and the available examples.
+## 3. 🧾 Identify similarities between your specific requirements and the available examples.
 
   Look through the available examples and documentation, and plan out how the toolkit can be applied to the specific case study (which tools, what order etc). 
 
-4. 🖥️ Install the tools
+## 4. 🖥️ Install the tools
 
   - pip install comet_maths
   - pip install punpy*
@@ -65,11 +64,11 @@ but more modules are planned to be developed and included in the future. For mor
   _*Installing punpy will automatically install the other two tools._
 
 
-5. ✔️ Perform the uncertainty estimation and interpret the results (eror correlation, etc)
+## 5. ✔️ Perform the uncertainty estimation and interpret the results (eror correlation, etc)
 
 
 
-6. 📈 Advanced use
+## 6. 📈 Advanced use
 
   - Managing memory and runtime
 
