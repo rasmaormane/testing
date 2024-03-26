@@ -1,21 +1,32 @@
 ---
-title: Digital Effects Table
-summary: How to define a digital effect table?
-date: 2024-03-20
+title: Examples
+summary: How to utilise the various tools within the CoMet Toolkit?
+date: 2024-03-19
+
 authors:
   - admin
+  - RasmaOrmane
 tags:
   - CoMet
-  - Obsarray
+  - punpy
+  - comet_maths
+  - obsarray
+
 image:
-  #caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+    caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
+
+Bellow, we have compiled a list of relevant examples and linked their corresponding jupyther notebooks with detailed comentary. 
+
+## 📦 Punpy as a Standalone Package
+
+Some general use cases can be found [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/punpy_standalone_example_overview.ipynb).
+
+We also have compiled some validation examples [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/NIST_example.ipynb), where the [punpy]({{< relref "/tools/punpy" >}}) results are compared against the NIST uncertainty machine.
 
 ## 📋 Digital Effects Tables
 
-> **Digital effects table** is 
-
-Bellow, we have compiled a list of relevant examples and linked their corresponding jupyther notebooks with detailed comentary. 
+**Digital effects table** is 
 
 1. A notebook containing examples that define **digital effects tables** is available [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/defining_digital_effects_table.ipynb). 
 
@@ -34,3 +45,14 @@ In this notebook, we have outlined how digital effects tables that are created w
 Here, we calculate the uncertainties in a volume of gas, using the ideal gas law and a digital effects table. 
 
 Consequently, we quantified the uncertainties and error-correlation of the gas temperature, pressure and amount of substance (number of moles).
+
+## ☄️ Comet_maths interpolation 
+
+How to interpolate data with uncertainties?
+
+a jupyter notebook for interpolation with uncertainties can be found [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/interpolation_example.ipynb).
+
+
+## Project specific examples
+
+🛰️ **HYPERNETS example**: LANDHYPERNET flags and uncertainty propagation (through band integration over S2 SRF) is available [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/hypernets_surface_reflectance.ipynb).
