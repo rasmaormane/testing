@@ -19,11 +19,11 @@ Bellow, we have compiled a list of relevant examples and linked their correspond
 
 ## 📦 Punpy as a Standalone Package
 
-### General Use Cases
+### 🗸 General Use Cases
 
 Some general use cases can be found [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/punpy_standalone_example_overview.ipynb).
 
-### Validation Examples
+### 🗸 Validation Examples
 
 We also have compiled some validation examples [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/NIST_example.ipynb), where the [punpy]({{< relref "/tools/punpy" >}}) results are compared against the NIST uncertainty machine.
 
@@ -51,7 +51,7 @@ Consequently, we quantified the uncertainties and error-correlation of the gas t
 
 ## ☄️ Comet_maths interpolation 
 
-### How to interpolate data with uncertainties?
+### 🗸 How to interpolate data with uncertainties?
 
 A jupyter notebook for interpolation with uncertainties can be found [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/interpolation_example.ipynb).
 
@@ -60,6 +60,6 @@ A jupyter notebook for interpolation with uncertainties can be found [here](http
 
 Here, we have compiled a list of external projects and examples that have utilised the CoMet Toolkit. 
 
-### **HYPERNETS example** 🛰️
+### 🗸 **HYPERNETS example** 
 
-LANDHYPERNET flags and uncertainty propagation (through band integration over S2 SRF) is available [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/hypernets_surface_reflectance.ipynb).
+- 🛰️ LANDHYPERNET flags and uncertainty propagation (through band integration over S2 SRF) is available [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/hypernets_surface_reflectance.ipynb).
