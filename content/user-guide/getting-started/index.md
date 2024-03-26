@@ -40,10 +40,15 @@ but more modules are planned to be developed and included in the future. For mor
 
 2. 🗃️ Characterise the data/measurements that require the uncertainty propagation 
 
-    - data type
+    <!-- - data type
     - contributing uncertainty types
     - uncertainty characteristics
-    - expected outcome
+    - expected outcome -->
+
+    - general
+    - defining measurement function
+    - quantifying uncertainties on input quantities
+    - determining error correlation
 
 3. 🧾 Identify similarities between your specific requirements and the available examples.
 

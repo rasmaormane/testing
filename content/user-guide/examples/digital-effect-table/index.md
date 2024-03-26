@@ -11,83 +11,26 @@ image:
   #caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
+## 📋 Digital Effects Tables
 
-<!-- ## Ideation
+> **Digital effects table** is 
 
-Hugo Blox supports a Markdown extension for mindmaps.
+Bellow, we have compiled a list of relevant examples and linked their corresponding jupyther notebooks with detailed comentary. 
 
-Simply insert a Markdown code block labelled as `markmap` and optionally set the height of the mindmap as shown in the example below.
+1. A notebook containing examples that define **digital effects tables** is available [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/defining_digital_effects_table.ipynb). 
 
-Mindmaps can be created by simply writing the items as a Markdown list within the `markmap` code block, indenting each item to create as many sub-levels as you need:
+It covers the following concepts:
 
-<div class="highlight">
-<pre class="chroma">
-<code>
-```markmap {height="200px"}
-- Hugo Modules
-  - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
-```
-</code>
-</pre>
-</div>
+  - How [obsarray]({{< relref "/tools/obsarray" >}}) can be used as a templater for efficiently making **xarray datasets** (both with and without uncertainties)?
+  - How, using [obsarray's]({{< relref "/tools/obsarray" >}}) **special variable types** (uncertainties and flags), datasets including detailed uncertainty and covariance information as well as quality flags can be created? 
+  - An example for a digital effects table quantifying the uncertainties and error-correlation of the gas temperature, pressure, and the number of moles. Here, the uncertainties can be efficiently and easily propagated through a **measurement function** using [punpy]({{< relref "/tools/punpy" >}}) ([learn more](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/master/training/punpy_digital_effects_table_example.ipynb)).
 
-renders as
+2. An example, showcasing the application of [obsarray]({{< relref "/tools/obsarray" >}}) can be found [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/obsarray_example.ipynb).
 
-```markmap {height="200px"}
-- Hugo Modules
-  - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
-```
+- An example of using punpy with digital effects tables created with [obsarray]({{< relref "/tools/obsarray" >}}) is explained [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/defining_digital_effects_table.ipynb).
 
-## Diagrams
+In this notebook, we have outlined how digital effects tables that are created with [obsarray]({{< relref "/tools/obsarray" >}}), can be propagated through a measurement function using [punpy]({{< relref "/tools/punpy" >}}). 
 
-Hugo Blox supports the _Mermaid_ Markdown extension for diagrams.
+Here, we calculate the uncertainties in a volume of gas, using the ideal gas law and a digital effects table. 
 
-An example **Gantt diagram**:
-
-    ```mermaid
-    gantt
-    section Section
-    Completed :done,    des1, 2014-01-06,2014-01-08
-    Active        :active,  des2, 2014-01-07, 3d
-    Parallel 1   :         des3, after des1, 1d
-    Parallel 2   :         des4, after des1, 1d
-    Parallel 3   :         des5, after des3, 1d
-    Parallel 4   :         des6, after des4, 1d
-    ```
-
-renders as
-
-```mermaid
-gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-```
-
-## Todo lists
-
-You can even write your todo lists in Markdown too:
-
-```markdown
-- [x] Write math example
-  - [x] Write diagram example
-- [ ] Do something else
-```
-
-renders as
-
-- [x] Write math example
-  - [x] Write diagram example
-- [ ] Do something else
-
-## Did you find this page helpful? Consider sharing it 🙌 -->
+Consequently, we quantified the uncertainties and error-correlation of the gas temperature, pressure and amount of substance (number of moles).
