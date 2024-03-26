@@ -32,8 +32,7 @@ But, in a nutshell, CoMet stands for **Community Metrology Toolkit** and it a se
 It accounts for case- and source-specific characteristics of the measurements, and can be used to quantify uncertainties and the uncertainty budget, create digital effects tables, and overall validate measurements. 
 
 At this time, there are the following individual tools:
-<!-- 
-{{< Tools_children >}} -->
+
 
   1. comet_maths
   2. obsarray
