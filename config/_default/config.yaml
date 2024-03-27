@@ -21,8 +21,8 @@ cascade:
     show_date_updated: true
     reading_time: true
     commentable: true
-    show_related: true
-    share: true
+    show_related: false
+    share: false
     # Just use Breadcrumb for navigation on blog post pages?
     show_breadcrumb: false
     header:

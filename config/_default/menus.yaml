@@ -45,5 +45,5 @@ main:
     url: latest-news
     weight: 50
   - name: People
-    url: people
+    url: content/people
     weight: 60
