@@ -1,7 +1,7 @@
 ---
 title: Meet the Team
-tyep: widget_page
-#type: landing
+#tyep: widget_page
+type: landing
 widget: people
 
 headless: true
