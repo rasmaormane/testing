@@ -40,9 +40,9 @@ header:
     logo:
       text: ""
       # Logo filename in `assets/media/` folder
-      filename: "logo.svg"
-      width: fit-content
-      height: 120px
+      filename: "logo.png"
+      # width: fit-content
+      # height: 120px
     button:
       enable: false
       text: "Get Started"
