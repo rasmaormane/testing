@@ -33,9 +33,9 @@ It accounts for case- and source-specific characteristics of the measurements, a
 
 At this time, there are the following individual tools:
 
-  1. comet_maths
-  2. obsarray
-  3. punpy
+    1. comet_maths
+    2. obsarray
+    3. punpy
 
 but more modules are planned to be developed and included in the future. For more detail, refer to the [**Tools Section**]({{< relref "/#tools" >}}). 
 
@@ -47,18 +47,18 @@ To help you identify all the relevant infromation from your data-set, we have co
 
 ### 🗸 General 
 
-    - ❔ What kind of data do you have?
-    - ❔ Does it require any pre-processing or filtering?
-    - ❔ How many datapoints do you have? Is it memory-heavy?
+  - ❔ What kind of data do you have?
+  - ❔ Does it require any pre-processing or filtering?
+  - ❔ How many datapoints do you have? Is it memory-heavy?
 
 ### 🗸 Quantifying uncertainties on input quantities
 
-    - ❔ Can you list all the input quantities of your measurements?
-    - ❕ Each of these quantities will be affected by one or more error effect. 
+  - ❔ Can you list all the input quantities of your measurements?
+  - ❕ Each of these quantities will be affected by one or more error effect. 
 
 ### 🗸 Defining measurement function
 
-    - ❔ What is the analytic expression (i.e. measuremet function) of your data? 
+  - ❔ What is the analytic expression (i.e. measuremet function) of your data? 
 
   Read more about the importance and functionality of **measurement functions** in this [FIDUCEO tutorial](https://research.reading.ac.uk/fiduceo/archive/tutorials/measurement-function-pt1/#:~:text=Often%2C%20we%20are%20able%20to%20explicitly%20write%20the,X%20i%2C%20via%20the%20functional%20relationship%20f%20f.).
 
@@ -75,9 +75,9 @@ To help you identify all the relevant infromation from your data-set, we have co
 
 All the available tools are  available on [GitHub](https://github.com/comet-toolkit) and installable via pip:
 
-  - pip install comet_maths
-  - pip install punpy*
-  - pip install obsarray
+    - pip install comet_maths
+    - pip install punpy*
+    - pip install obsarray
 
   _*Installing punpy will automatically install comet-maths and obsarray._
 
