@@ -41,36 +41,53 @@ but more modules are planned to be developed and included in the future. For mor
 
 ## 2. 🗃️ Characterise the data/measurements that require the uncertainty propagation 
 
-    <!-- - data type
-    - contributing uncertainty types
-    - uncertainty characteristics
-    - expected outcome -->
+The main purpose of these tools, is to propagate uncertaintites. To do that, you must have an overall understanding of the type of data/measurements you are working with. 
 
-    - general
-    - defining measurement function
-    - quantifying uncertainties on input quantities
-    - determining error correlation
+To help you identify all the relevant infromation from your data-set, we have compiled a list of relevant questions and comments.
+
+### 🗸 General 
+
+    - ❔ What kind of data do you have?
+    - ❔ Does it require any pre-processing or filtering?
+    - ❔ How many datapoints do you have? Is it memory-heavy?
+
+### 🗸 Quantifying uncertainties on input quantities
+
+    - ❔ Can you list all the input quantities of your measurements?
+    - ❕ Each of these quantities will be affected by one or more error effect. 
+
+### 🗸 Defining measurement function
+
+    - ❔ What is the analytic expression (i.e. measuremet function) of your data? 
+
+  Read more about the importance and functionality of **measurement functions** in this [FIDUCEO tutorial](https://research.reading.ac.uk/fiduceo/archive/tutorials/measurement-function-pt1/#:~:text=Often%2C%20we%20are%20able%20to%20explicitly%20write%20the,X%20i%2C%20via%20the%20functional%20relationship%20f%20f.).
+
+### 🗸 Determining error correlation
+
 
 ## 3. 🧾 Identify similarities between your specific requirements and the available examples.
 
-  Look through the available examples and documentation, and plan out how the toolkit can be applied to the specific case study (which tools, what order etc). 
+  - Look through the available [examples]({{< relref "/user-guide/examples" >}}) and documentation. 
+  - Plan out how the toolkit can be applied to your specific case study.
+  - ❔ Which tools and in what order will you use? 
 
 ## 4. 🖥️ Install the tools
+
+All the available tools are  available on [GitHub](https://github.com/comet-toolkit) and installable via pip:
 
   - pip install comet_maths
   - pip install punpy*
   - pip install obsarray
 
-  _*Installing punpy will automatically install the other two tools._
+  _*Installing punpy will automatically install comet-maths and obsarray._
 
 
-## 5. ✔️ Perform the uncertainty estimation and interpret the results (eror correlation, etc)
-
+## 5. ✔️ Perform the uncertainty estimation and interpret the results 
 
 
 ## 6. 📈 Advanced use
 
-  - Managing memory and runtime
+### 🗸 Managing memory and runtime
 
   <!-- 
   

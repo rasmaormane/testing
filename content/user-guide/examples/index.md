@@ -40,18 +40,18 @@ We also have compiled some validation examples [here](https://colab.research.goo
 Here, we have replicated the following **examples** available on the NIST uncertainty machine [user manual](https://uncertainty.nist.gov/NISTUncertaintyMachine-UserManual.pdf).  
 
   1. End-gauge calibration
-  2. Dynamic Viscosity
+  2. Dynamic viscosity
   3. Resistance
-  4. Stefan-Boltzmann Constant
-  5. Voltage Reflection Coefficient
+  4. Stefan-Boltzmann constant
+  5. Voltage reflection coefficient
 
-All the obtained results are fully consistent with the results of the NIST uncertainty machine.
+❕ All the obtained results are fully consistent with the results of the NIST uncertainty machine.
 
-## 📋 Digital Effects Tables
+## 📋 Digital Effects Tables (DET)
 
-**Digital effects table** is 
+### 🗸 Defining DET
 
-1. A notebook containing examples that define **digital effects tables** is available [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/defining_digital_effects_table.ipynb). 
+A notebook containing examples that define **digital effects tables** is available [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/defining_digital_effects_table.ipynb). 
 
 It covers the following concepts:
 
@@ -59,26 +59,38 @@ It covers the following concepts:
   - How, using [obsarray's]({{< relref "/tools/obsarray" >}}) **special variable types** (uncertainties and flags), datasets including detailed uncertainty and covariance information as well as quality flags can be created? 
   - An example for a digital effects table quantifying the uncertainties and error-correlation of the gas temperature, pressure, and the number of moles. Here, the uncertainties can be efficiently and easily propagated through a **measurement function** using [punpy]({{< relref "/tools/punpy" >}}) ([learn more](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/master/training/punpy_digital_effects_table_example.ipynb)).
 
-2. An example, showcasing the application of [obsarray]({{< relref "/tools/obsarray" >}}) can be found [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/obsarray_example.ipynb).
+### 🗸 Utilising obsarray & punpy
 
-- An example of using punpy with digital effects tables created with [obsarray]({{< relref "/tools/obsarray" >}}) is explained [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/defining_digital_effects_table.ipynb).
+1. An example showcasing the application of [obsarray]({{< relref "/tools/obsarray" >}}) can be found [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/obsarray_example.ipynb).
 
-In this notebook, we have outlined how digital effects tables that are created with [obsarray]({{< relref "/tools/obsarray" >}}), can be propagated through a measurement function using [punpy]({{< relref "/tools/punpy" >}}). 
+2. An example of using [punpy]({{< relref "/tools/punpy" >}}) with digital effects tables created with [obsarray]({{< relref "/tools/obsarray" >}}) is explained [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/defining_digital_effects_table.ipynb).
 
-Here, we calculate the uncertainties in a volume of gas, using the ideal gas law and a digital effects table. 
+This notebook outlines how digital effects tables that are created with [obsarray]({{< relref "/tools/obsarray" >}}), can be propagated through a measurement function using [punpy]({{< relref "/tools/punpy" >}}). 
 
-Consequently, we quantified the uncertainties and error-correlation of the gas temperature, pressure and amount of substance (number of moles).
+  - At first, we **calculate the uncertainties** in a volume of gas, using the ideal gas law and a digital effects table. 
+  - Then we **quantify the uncertainties** and **error-correlation** of the gas temperature, pressure and amount of substance.
 
 ## ☄️ Comet_maths interpolation 
 
 ### 🗸 How to interpolate data with uncertainties?
 
-A jupyter notebook for interpolation with uncertainties can be found [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/interpolation_example.ipynb).
+A jupyter notebook for **interpolation** with uncertainties can be found [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/interpolation_example.ipynb).
 
+This example covers the following concepts:
+
+  - Interpolation 
+    1. Linear
+    2. Quadratic
+    3. Cubic
+  - **Unknown** input uncertainties (i.e. only model uncertainties)
+  - **Known** measurmeent uncertainties
+  - Monte Carlo uncertainty propagation
+  - Extrapolation
+  - 1D interpolation along high-resolution example
 
 ## 🗂️ Project specific examples
 
-Here, we have compiled a list of external projects and examples that have utilised the CoMet Toolkit. 
+In this section, we have compiled a list of external projects and examples that have utilised the CoMet Toolkit. 
 
 ### 🗸 **HYPERNETS example** 
 
