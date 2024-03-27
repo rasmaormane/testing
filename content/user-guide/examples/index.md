@@ -15,17 +15,37 @@ image:
     caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-Bellow, we have compiled a list of relevant examples and linked their corresponding jupyther notebooks with detailed comentary. 
+Bellow, we have compiled a list of relevant examples and linked their corresponding jupyther notebooks with detailed comentary. All the available tools can be used on their own or in conjunction with other modules. For additional information regarding individual packages, refer to the signposted sources throughout the website. 
 
 ## 📦 Punpy as a Standalone Package
 
 ### 🗸 General Use Cases
 
-Some general use cases can be found [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/punpy_standalone_example_overview.ipynb).
+An example showcasing the capabilitites of the [punpy]({{< relref "/tools/punpy" >}}) package can be found [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/punpy_standalone_example_overview.ipynb).
 
-### 🗸 Validation Examples
+This jupyther notebook covers the following concepts:
+
+  1. **Calibration** of L0 data to L1
+  2. Propagation of various types of uncertainties:
+    - **uncorrelated** (random) uncertainties
+    - **fully correlated** (systematic) uncertainties
+    - uncertainties associated with **structured errors**
+  3. **Correlation** along one, two, or more dimensions of a variable
+  4. **Multidimensional** input quantities, where a certain correlation structure is known along one dimension, while the other dimensions are random or systematic.
+
+### 🗸 Punpy vs. NIST
 
 We also have compiled some validation examples [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/NIST_example.ipynb), where the [punpy]({{< relref "/tools/punpy" >}}) results are compared against the NIST uncertainty machine.
+
+Here, we have replicated the following **examples** available on the NIST uncertainty machine [user manual](https://uncertainty.nist.gov/NISTUncertaintyMachine-UserManual.pdf).  
+
+  1. End-gauge calibration
+  2. Dynamic Viscosity
+  3. Resistance
+  4. Stefan-Boltzmann Constant
+  5. Voltage Reflection Coefficient
+
+All the obtained results are fully consistent with the results of the NIST uncertainty machine.
 
 ## 📋 Digital Effects Tables
 
