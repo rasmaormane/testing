@@ -1,6 +1,13 @@
 ---
 title: Meet the Team
-type: landing
+tyep: widget_page
+#type: landing
+widget: people
+
+headless: true
+
+weight: 68
+
 
 sections:
   - block: people
