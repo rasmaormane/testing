@@ -11,21 +11,15 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-<<<<<<< HEAD
-Uncertainties are a vital aspect of the measurmeent science, as they provide credibility and trust in tmeasured data. 
+Uncertainties are a vital aspect of the measurmeent science, as they provide credibility and trust in measured data. 
 
-Navigating the world of understanding uncertainty can be quite tricky, as oftentimes terms such as errors and uncertainties are used interchangeabli, even though they do not describe the same thing.
+Navigating the world of uncertainties can be quite tricky, as oftentimes terms such as errors and uncertainties are used interchangeably, even though they do not describe the same thing.
 
-In this brief introduction to uncertainties and their propagation, we will highlight the most important concepts and 
-=======
-Uncertainties are a vital aspect of the measurement science, as they provide credibility and trust in measured data.
- 
-Navigating the world of uncertainties can be quite tricky, as oftentimes terms such as _errors_ and _uncertainties_ are used interchangeably, even though they do not describe the same thing.
->>>>>>> 2ed01c8fc196e139134115e74af43d3ed7bc9d39
+In this brief introduction to uncertainties and their propagation, we will highlight the most important concepts and signpost you to useful resources. 
 
-In this brief introduction to uncertainties and their propagation, we will highlight the most important concepts and signpost you to useful resources, that explain all the relevant topics at varying levels of depth. 
+By providing learning materials covering relevant topics at varying levels of depth, we want to ensure that you can fully understand and therefore implement the capabilitties of this toolkit. 
 
-## ❔ What is an uncertainty?
+## ❔ Why do we care about uncertainties?
 
 
 ## ✔️ Relevant terminology and definitions

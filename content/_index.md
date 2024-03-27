@@ -130,30 +130,4 @@ sections:
             text: More applications
             url: user-guide/examples/
             icon: rocket-launch
-  # - block: testimonials
-  #   content:
-  #     title: ""
-  #     text: ""
-  #     items:
-  #       - name: "Hugo Smith"
-  #         role: "Marketing Executive at X"
-  #         # Upload image to `assets/media/` and reference the filename here
-  #         image: "testimonial-1.jpg"
-  #         text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
-  #   design:
-  #     spacing:
-  #       # Reduce bottom spacing so the testimonial appears vertically centered between sections
-  #       padding: ["6rem", 0, 0, 0]
-  # - block: cta-card
-  #   content:
-  #     title: Build your future-proof website
-  #     text: As easy as 1, 2, 3!
-  #     button:
-  #       text: Get Started
-  #       url: https://www.comet-toolkit.org/
-  #   design:
-  #     card:
-  #       # Card background color (CSS class)
-  #       css_class: "bg-primary-700"
-  #       css_style: ""
 ---

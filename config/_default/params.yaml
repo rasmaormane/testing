@@ -42,7 +42,7 @@ header:
       # Logo filename in `assets/media/` folder
       filename: "logo.png"
       width: 2732px
-      height: 1536px
+      height: auto
     button:
       enable: false
       text: "Get Started"
@@ -108,9 +108,9 @@ locale:
 
 # Extensions
 
-extensions:
-  cms:
-    branch: main
-    local_backend: false
-  academicons:
-    enable: true
+# extensions:
+#   cms:
+#     branch: main
+#     local_backend: false
+#   academicons:
+#     enable: true
