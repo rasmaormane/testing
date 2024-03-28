@@ -90,22 +90,24 @@ To learn more about error correlation structures and examples in the context of 
 All the available tools are  available on [GitHub](https://github.com/comet-toolkit) and installable via pip:
 
     - pip install comet_maths
-    - pip install punpy*
+    - pip install punpy
     - pip install obsarray
 
-  _*Installing punpy will automatically install comet-maths and obsarray._
+  _Installing **punpy** will automatically install comet-maths and obsarray._
 
 
 ## 5. ✔️ Perform the uncertainty estimation and interpret the results. 
 
 After defining a measurement function, installing and importing all the relevant packages and data, it's time to benefit from the power of CoMet! 
 
+### 🗸 Method breakdown
+
 A general overview of the various capabilitites and methods are combiled bellow. 
 
   - Propagate uncertainties
-    1. Monte Carlo (MC)
-    2. Law of Propagation of Uncertainty (LPU)
-    3. Gaussian Process Regression (GPR)
+    1. 🎲 Monte Carlo (MC)
+    2. ⚖️ Law of Propagation of Uncertainty (LPU)
+    3. ⛰️ Gaussian Process Regression (GPR)
   - Interpolate data
     1. Linear
     2. Quadratic
