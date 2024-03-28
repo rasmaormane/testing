@@ -33,6 +33,13 @@ As mentioned at the beginning of this article, we can confirm that _uncertaintie
   > **Error** is the difference between the measured value and the "true value" of the thing being measured. 
 
 
+## 📜 **G**uide to **U**ncertainties in **M**easurements
+
+The Guide to the expression of Uncertainty in Measurement or **GUM** for short, is the ultima resource to refer to, when you are evaluating measurement uncertainties. 
+
+All the official documentation of GUM as well as a guide to the **International Vocabulary of Metrology** (VIM) are available [here](https://www.bipm.org/en/committees/jc/jcgm/publications). 
+
+
 ## ✔️ Uncertainty in Earth Observations (EO)
 
 Considering the origins of this toolkit, it makes sense to dive a bit deeper into the uncertainties in the context of **Earth Observations**.
