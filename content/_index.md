@@ -116,7 +116,7 @@ sections:
     id: examples
     content:
       items:
-        - title: Exploring the possibilitites!
+        - title: Exploring the possibilities!
           text: CoMet can be used to
           feature_icon: bolt
           features:
