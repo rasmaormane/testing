@@ -27,11 +27,13 @@ In this brief guide we will walk you through the basic steps and prerequisists t
 
 All the relevant information regarding the aims and functionality of CoMet Tolkit is outlined in the [**About Section**]({{< relref "/about" >}}). 
 
-But, in a nutshell, CoMet stands for **Community Metrology Toolkit** and it a set of software tools that handle, process, and store measurement data uncertainties.
+But, in a nutshell, 
+
+  > CoMet stands for **Community Metrology Toolkit** and it a set of software tools that handle, process, and store measurement data uncertainties.
 
 It accounts for case- and source-specific characteristics of the measurements, and can be used to quantify uncertainties and the uncertainty budget, create digital effects tables, and overall validate measurements. 
 
-At this time, there are the following individual tools:
+At this time, there are three individual tools:
 
     1. comet_maths
     2. obsarray
@@ -39,22 +41,27 @@ At this time, there are the following individual tools:
 
 but more modules are planned to be developed and included in the future. For more detail, refer to the [**Tools Section**]({{< relref "/#tools" >}}). 
 
-## 2. 🗃️ Characterise the data/measurements that require the uncertainty propagation 
+## 2. 🗃️ Characterise the data/measurements that require the uncertainty propagation. 
 
 The main purpose of these tools, is to propagate uncertaintites. To do that, you must have an overall understanding of the type of data/measurements you are working with. 
 
-To help you identify all the relevant infromation from your data-set, we have compiled a list of relevant questions and comments.
+To help you identify all the relevant information from your dataset, we have compiled a list of relevant questions and tips.
 
 ### 🗸 General 
 
   - ❔ What kind of data do you have?
   - ❔ Does it require any pre-processing or filtering?
-  - ❔ How many datapoints do you have? Is it memory-heavy?
+  - ❔ How many datapoints do you have? Is the data memory-heavy?
 
 ### 🗸 Quantifying uncertainties on input quantities
 
   - ❔ Can you list all the input quantities of your measurements?
-  - ❕ Each of these quantities will be affected by one or more error effect. 
+  - ❕ Each of these quantities will be affected by one or more error effect!
+  - There are three types of errors, each with their own characteristics: 
+  
+  1. Random
+  2. Systematic
+  3. Structured random
 
 ### 🗸 Defining measurement function
 
@@ -64,6 +71,13 @@ To help you identify all the relevant infromation from your data-set, we have co
 
 ### 🗸 Determining error correlation
 
+Once you have identified the various errors and their types, that are present in your measurements, it's important to consider how these values and errors correlate with one another.
+
+As defined by this FIDUCEO article on ["The origin of error correlation"](https://research.reading.ac.uk/fiduceo/archive/tutorials/the-origin-of-error-correlation/).
+
+  > Correlation is a statistical measure of how two, or more, variables vary together.
+
+To learn more about error correlation structures and examples in the context of Earth Observations, refer this [FIDUCEO tutorial](https://research.reading.ac.uk/fiduceo/archive/tutorials/evaluating-error-correlation/). 
 
 ## 3. 🧾 Identify similarities between your specific requirements and the available examples.
 
@@ -82,12 +96,42 @@ All the available tools are  available on [GitHub](https://github.com/comet-tool
   _*Installing punpy will automatically install comet-maths and obsarray._
 
 
-## 5. ✔️ Perform the uncertainty estimation and interpret the results 
+## 5. ✔️ Perform the uncertainty estimation and interpret the results. 
 
+After defining a measurement function, installing and importing all the relevant packages and data, it's time to benefit from the power of CoMet! 
 
-## 6. 📈 Advanced use
+A general overview of the various capabilitites and methods are combiled bellow. 
+
+  - Propagate uncertainties
+    1. Monte Carlo (MC)
+    2. Law of Propagation of Uncertainty (LPU)
+    3. Gaussian Process Regression (GPR)
+  - Interpolate data
+    1. Linear
+    2. Quadratic
+    3. Cubic 
+  - Interpolate uncertainties
+    1. Standard deviation
+  - Extrapolate data
+    2. Analytical method
+  - Plot results
+
+_Several of the methods listed above apply to more than one of the applications, for more information refer to [examples]({{< relref "/user-guide/examples" >}})._
+
+## 6. 📈 Advanced use.
+
+In this section, we have highlighted certain tips for advaced use of the toolkit. 
 
 ### 🗸 Managing memory and runtime
+
+  - Certain products may have large RAM requirements.
+  
+  For example, to propagate uncertainties for all of the **HYPERNETS L2B** surface reflectance data series, [punpy]({{< relref "/tools/punpy" >}}) would have to calculate a very large correlation matrix.
+
+  This can be avoided, by utilising **error correlation dictionaries**, which will take much less memory. 
+  
+  Full example code for this adjustment is available [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/hypernets_surface_reflectance.ipynb).
+
 
   <!-- 
   
