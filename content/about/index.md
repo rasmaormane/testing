@@ -27,7 +27,7 @@ authors:
 
 ## 💡 Why is CoMet Toolkit relevant?
 
-  To ensure credible and reliable interpretation of data, the associated uncertainty information ought to be provided. Oftentimes it is made up of a multitude of sources combined through the processing chain. Each source affects the final product at varying levels.
+To ensure credible and reliable interpretation of data, the associated uncertainty information ought to be provided. Oftentimes it is made up of a multitude of sources combined through the processing chain. Each source affects the final product at varying levels.
   
   CoMet Toolkit accounts for case- and source-specific characteristics of the measurements. It can handle data that involves:
 
@@ -38,18 +38,20 @@ authors:
 
 ## 📋 What can CoMet Toolkit be used for?
 
-  CoMet toolkit can be used to:
+CoMet toolkit can be used to:
   
 - quantify uncertainties (fully correlated or uncorrelated)
 - create digital effects table
 - calculate the uncertainty budget
 - validate measurements
   
-  for datasets of various sizes. 
+for datasets of various sizes. 
   
-  Initially, CoMet was developed to fulfil the Quality Assurance framework for Earth Observation (QA4EO) requirements. According to these guidelines, all Satellite Earth Observations (EO) and in-situ measurements require their corresponding uncertainty information. 
+Initially, CoMet was developed to fulfil the Quality Assurance framework for Earth Observation (**QA4EO**) requirements. 
   
-  Despite its origins, CoMet can be applied to any field that requires measurement uncertainty propagation. 
+According to these guidelines, all Satellite Earth Observations (EO) and in-situ measurements require their corresponding uncertainty information. 
+  
+Despite its origins, CoMet can be applied to any field that requires measurement uncertainty propagation. 
 
 ## 📍 Where can CoMet Toolkit be accessed?
 

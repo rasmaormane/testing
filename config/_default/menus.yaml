@@ -7,7 +7,7 @@ main:
     url: /#top
     weight: 10
   - name: About
-    url: about/
+    url: /about
     weight: 20
   - name: User Guide
     url: /user-guide

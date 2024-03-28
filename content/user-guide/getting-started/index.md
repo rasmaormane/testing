@@ -56,12 +56,13 @@ To help you identify all the relevant information from your dataset, we have com
 ### 🗸 Quantifying uncertainties on input quantities
 
   - ❔ Can you list all the input quantities of your measurements?
-  - ❕ Each of these quantities will be affected by one or more error effect!
+  - ❔ Can you identify all the error sources?
   - There are three types of errors, each with their own characteristics: 
-  
-  1. Random
-  2. Systematic
-  3. Structured random
+    1. Random
+    2. Systematic
+    3. Structured random
+
+  ❕ Each of the input quantities will be affected by **one or more** error effect!
 
 ### 🗸 Defining measurement function
 
@@ -73,7 +74,7 @@ To help you identify all the relevant information from your dataset, we have com
 
 Once you have identified the various errors and their types, that are present in your measurements, it's important to consider how these values and errors correlate with one another.
 
-As defined by this FIDUCEO article on ["The origin of error correlation"](https://research.reading.ac.uk/fiduceo/archive/tutorials/the-origin-of-error-correlation/).
+As defined by this FIDUCEO article on ["The origin of error correlation"](https://research.reading.ac.uk/fiduceo/archive/tutorials/the-origin-of-error-correlation/),
 
   > Correlation is a statistical measure of how two, or more, variables vary together.
 
