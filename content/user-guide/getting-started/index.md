@@ -108,17 +108,16 @@ A general overview of the various capabilitites and methods are combiled bellow.
     1. 🎲 Monte Carlo (MC)
     2. ⚖️ Law of Propagation of Uncertainty (LPU)
     3. ⛰️ Gaussian Process Regression (GPR)
-  - Interpolate data
+    4. 📈 Standard deviation
+  - Interpolate data & uncertainties
     1. Linear
     2. Quadratic
     3. Cubic 
-  - Interpolate uncertainties
-    1. Standard deviation
   - Extrapolate data
-    2. Analytical method
+    1. Analytical method
   - Plot results
 
-_Several of the methods listed above apply to more than one of the applications, for more information refer to [examples]({{< relref "/user-guide/examples" >}})._
+_Several of the methods listed above apply to more than one of the applications. For more information refer to [examples]({{< relref "/user-guide/examples" >}})._
 
 ## 6. 📈 Advanced use.
 

@@ -65,4 +65,4 @@ authors:
   - **CoMet:** The UK’s Department for Business, Energy and Industrial Strategy’s (BEIS) National Measurement System (NMS) programme
   - **IDEAS-QA4EO:** European Space Agency (ESA)
   
-  **Citation:** _insert full citation here_ 
+  **Citation:** _Vis, P.D. & Hunt, S. CoMet Toolkit. [online] National Physical Laboratory. Available at: [(https://www.comet-toolkit.org)](https://www.comet-toolkit.org)_
