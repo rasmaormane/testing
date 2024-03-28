@@ -48,15 +48,19 @@ This project provides a comprehensive guide to understanding and implementing:
   - [Harmonisation](https://research.reading.ac.uk/fiduceo/fcdrs/harmonisation/)
 
 
-## 🏆 Best practice framework fo EO
+## 🏆 Best practice framework for EO
 
+To ensure credible and reliable interpretation of environmental observations from satellites and in-situ measurements, Committee on Earth Observation Satellites (**CEOS**) has established and endorced the Quality Assurance framework for Earth Observation [(**QA4EO**)](https://qa4eo.org/). 
 
+This framework requires that associated uncertainty information is provided for all measurements. Additionally, it highlights the importance of understanding the **error-covariances** in the data is. 
 
-The Quality Assurance framework for Earth Observation (**QA4EO**) was established and endorsed by the Committee on Earth Observation Satellites (**CEOS**). 
+For example, the significance of separate handling of random and systematic uncertainties.
 
-QA4EO ensures credible and reliable interpretation of environmental observations from satellites and in-situ measurements by requiring that associated uncertainty information is provided. It is also key to understand error-covariances in the data (e.g., separate handling of random and systematic uncertainties).
+Approaches defined within QA4EO enable the EO community to develop quantitative characterisation of uncertainty in EO data. 
 
-The approaches defined within QA4EO enable the Earth observation (EO) community to develop quantitative characterisation of uncertainty in EO data. However, practically implementing these methods is not trivial and can be time consuming. To facilitate this, the CoMet Toolkit was developed to provide a means to store and propagate uncertainty and error-correlation information. These tools allow the user to rely on quality-assured code, rather than having to reinvent the wheel, and lower the barrier to entry for users new to handling uncertainties.
+However, practically implementing these methods is not trivial and can be time consuming. 
+
+As a way to facilitate this, the CoMet Toolkit was developed as a means to store and propagate uncertainty and error-correlation information. 
 
 
 
