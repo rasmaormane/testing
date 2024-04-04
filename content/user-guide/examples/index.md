@@ -19,7 +19,7 @@ Bellow, we have compiled a list of relevant examples and linked their correspond
 
 ## 📦 Punpy as a Standalone Package
 
-### 🗸 General Use Cases
+### 🗸 General use cases
 
 An example showcasing the capabilitites of the [punpy]({{< relref "/tools/punpy" >}}) package can be found [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/punpy_standalone_example_overview.ipynb).
 

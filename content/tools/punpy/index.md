@@ -22,7 +22,7 @@ It propagates uncertainties on input quantities through any python function, eva
 ## 📍 Where can *punpy* be found?
 
 - The *punpy* documentation is available [here](https://punpy.readthedocs.io/en/latest/), including some examples for [standalone punpy](https://punpy.readthedocs.io/en/latest/content/examples_standalone.html) and for [using punpy with the digital effects tables](https://punpy.readthedocs.io/en/latest/content/examples_digital_effects_table.html).
-- There are also jupyter notebooks available in the [example section](/examples).
+- There are also jupyter notebooks available in the [example section](user-guide/examples).
 
 ## 📋 What can *punpy* tool be used for?
 
