@@ -19,7 +19,7 @@ authors:
 
 <!-- Welcome 👋 -->
 
-## ❔ What is CoMet Toolkit?
+## ❔ What is the CoMet Toolkit?
 
   **Community Metrology** (CoMet) **Toolkit** is a set of software tools that can handle, process, and store measurement data uncertainties.
 
